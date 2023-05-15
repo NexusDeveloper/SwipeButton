@@ -243,7 +243,7 @@
             }
 
             if (this.options.metrikaGoalName) {
-                window.ym(this.options.metrikaId, 'goal', this.options.metrikaGoalName);
+                window.ym(this.options.metrikaId, 'reachGoal', this.options.metrikaGoalName);
             }
 
             window.ym(this.options.metrikaId, 'extLink', url, {
